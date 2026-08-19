@@ -704,14 +704,24 @@ function render(theme, scene) {
   animBricks.forEach((b) => {
     let ty = 0;
     let pts = `0%{transform:translate(0,0);opacity:1}`;
+    // keyframe percentages must stay monotonic: browsers re-sort
+    // out-of-order keyframes, which turns a discrete settle drop into a
+    // seconds-long linear drift. A settle that can't finish before this
+    // brick's death frames begin is dropped — the brick was destroyed
+    // before that fall started.
+    const deadline = b.deathT === null ? Infinity : b.deathT - (b.melee ? 0.32 : 0.04);
     for (const mv of b.moves) {
+      if (mv.t + 0.25 > deadline) break;
       const from = (b.s0 - mv.from) * 9, to = (b.s0 - mv.to) * 9;
       pts += `${PT(mv.t)}%{transform:translate(0,${from}px)}${PT(mv.t + 0.25)}%{transform:translate(0,${to}px)}`;
       ty = to;
     }
     if (b.deathT !== null) {
       if (b.melee) {
-        pts += `${PT(b.deathT - 0.3)}%{transform:translate(2px,${ty}px)}${PT(b.deathT - 0.15)}%{transform:translate(-2px,${ty}px)}`;
+        // hold frame: without it the shake's +2px interpolates linearly all
+        // the way from the previous transform keyframe, so the brick slowly
+        // slides sideways for seconds before the hit lands.
+        pts += `${PT(b.deathT - 0.32)}%{transform:translate(0,${ty}px)}${PT(b.deathT - 0.3)}%{transform:translate(2px,${ty}px)}${PT(b.deathT - 0.15)}%{transform:translate(-2px,${ty}px)}`;
       }
       pts += `${PT(b.deathT - 0.02)}%{opacity:1}${PT(b.deathT)}%,100%{opacity:0;transform:translate(0,${ty}px)}`;
     } else {
