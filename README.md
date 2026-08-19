@@ -53,7 +53,7 @@ All 53 weeks stand six to seven bricks tall. Arrows never stop flying.
   <img alt="current example" src="examples/current-light.svg" width="100%">
 </picture>
 
-A snapshot of [@rim95dev](https://github.com/rim95dev) as of 2026-08-06. This image does not update — the live version is on [my profile](https://github.com/rim95dev). Only the last 8 weeks of wall are standing; the empty field on the left is a long break from committing. Keep committing and the wall grows leftward.
+A snapshot of [@rim95dev](https://github.com/rim95dev) as of 2026-08-19. This image does not update — the live version is on [my profile](https://github.com/rim95dev). Only the last 8 weeks of wall are standing; the empty field on the left is a long break from committing. Keep committing and the wall grows leftward.
 
 ### Barely any wall — 7 commits in a year
 
