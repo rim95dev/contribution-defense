@@ -62,29 +62,29 @@
     .fall{animation:fallk 19.9s linear infinite}
     @keyframes fallk{0%{transform:translateY(var(--fd));animation-timing-function:cubic-bezier(.45,0,1,1)}4.52%{transform:translateY(0);animation-timing-function:ease-out}5.53%{transform:translateY(-3px);animation-timing-function:ease-in}6.53%,100%{transform:translateY(0)}}
     .bv0{animation:bvk0 19.9s linear infinite}
-    @keyframes bvk0{0%{transform:translate(0,0);opacity:1}44.19%{transform:translate(2px,0px)}44.95%{transform:translate(-2px,0px)}45.60%{opacity:1}45.70%,100%{opacity:0;transform:translate(0,0px)}}
+    @keyframes bvk0{0%{transform:translate(0,0);opacity:1}44.09%{transform:translate(0,0px)}44.19%{transform:translate(2px,0px)}44.95%{transform:translate(-2px,0px)}45.60%{opacity:1}45.70%,100%{opacity:0;transform:translate(0,0px)}}
     .bv1{animation:bvk1 19.9s linear infinite}
-    @keyframes bvk1{0%{transform:translate(0,0);opacity:1}41.68%{transform:translate(2px,0px)}42.43%{transform:translate(-2px,0px)}43.09%{opacity:1}43.19%,100%{opacity:0;transform:translate(0,0px)}}
+    @keyframes bvk1{0%{transform:translate(0,0);opacity:1}41.58%{transform:translate(0,0px)}41.68%{transform:translate(2px,0px)}42.43%{transform:translate(-2px,0px)}43.09%{opacity:1}43.19%,100%{opacity:0;transform:translate(0,0px)}}
     .bv2{animation:bvk2 19.9s linear infinite}
-    @keyframes bvk2{0%{transform:translate(0,0);opacity:1}20.59%{transform:translate(2px,0px)}21.34%{transform:translate(-2px,0px)}22.00%{opacity:1}22.10%,100%{opacity:0;transform:translate(0,0px)}}
+    @keyframes bvk2{0%{transform:translate(0,0);opacity:1}20.49%{transform:translate(0,0px)}20.59%{transform:translate(2px,0px)}21.34%{transform:translate(-2px,0px)}22.00%{opacity:1}22.10%,100%{opacity:0;transform:translate(0,0px)}}
     .bv3{animation:bvk3 19.9s linear infinite}
-    @keyframes bvk3{0%{transform:translate(0,0);opacity:1}18.08%{transform:translate(2px,0px)}18.83%{transform:translate(-2px,0px)}19.48%{opacity:1}19.58%,100%{opacity:0;transform:translate(0,0px)}}
+    @keyframes bvk3{0%{transform:translate(0,0);opacity:1}17.98%{transform:translate(0,0px)}18.08%{transform:translate(2px,0px)}18.83%{transform:translate(-2px,0px)}19.48%{opacity:1}19.58%,100%{opacity:0;transform:translate(0,0px)}}
     .bv4{animation:bvk4 19.9s linear infinite}
-    @keyframes bvk4{0%{transform:translate(0,0);opacity:1}15.56%{transform:translate(2px,0px)}16.32%{transform:translate(-2px,0px)}16.97%{opacity:1}17.07%,100%{opacity:0;transform:translate(0,0px)}}
+    @keyframes bvk4{0%{transform:translate(0,0);opacity:1}15.46%{transform:translate(0,0px)}15.56%{transform:translate(2px,0px)}16.32%{transform:translate(-2px,0px)}16.97%{opacity:1}17.07%,100%{opacity:0;transform:translate(0,0px)}}
     .bv5{animation:bvk5 19.9s linear infinite}
-    @keyframes bvk5{0%{transform:translate(0,0);opacity:1}13.05%{transform:translate(2px,0px)}13.80%{transform:translate(-2px,0px)}14.46%{opacity:1}14.56%,100%{opacity:0;transform:translate(0,0px)}}
+    @keyframes bvk5{0%{transform:translate(0,0);opacity:1}12.95%{transform:translate(0,0px)}13.05%{transform:translate(2px,0px)}13.80%{transform:translate(-2px,0px)}14.46%{opacity:1}14.56%,100%{opacity:0;transform:translate(0,0px)}}
     .bv6{animation:bvk6 19.9s linear infinite}
-    @keyframes bvk6{0%{transform:translate(0,0);opacity:1}84.42%{transform:translate(2px,0px)}85.18%{transform:translate(-2px,0px)}85.83%{opacity:1}85.93%,100%{opacity:0;transform:translate(0,0px)}}
+    @keyframes bvk6{0%{transform:translate(0,0);opacity:1}84.32%{transform:translate(0,0px)}84.42%{transform:translate(2px,0px)}85.18%{transform:translate(-2px,0px)}85.83%{opacity:1}85.93%,100%{opacity:0;transform:translate(0,0px)}}
     .bv7{animation:bvk7 19.9s linear infinite}
-    @keyframes bvk7{0%{transform:translate(0,0);opacity:1}81.91%{transform:translate(2px,0px)}82.66%{transform:translate(-2px,0px)}83.32%{opacity:1}83.42%,100%{opacity:0;transform:translate(0,0px)}}
+    @keyframes bvk7{0%{transform:translate(0,0);opacity:1}81.81%{transform:translate(0,0px)}81.91%{transform:translate(2px,0px)}82.66%{transform:translate(-2px,0px)}83.32%{opacity:1}83.42%,100%{opacity:0;transform:translate(0,0px)}}
     .bv8{animation:bvk8 19.9s linear infinite}
-    @keyframes bvk8{0%{transform:translate(0,0);opacity:1}79.40%{transform:translate(2px,0px)}80.15%{transform:translate(-2px,0px)}80.80%{opacity:1}80.90%,100%{opacity:0;transform:translate(0,0px)}}
+    @keyframes bvk8{0%{transform:translate(0,0);opacity:1}79.30%{transform:translate(0,0px)}79.40%{transform:translate(2px,0px)}80.15%{transform:translate(-2px,0px)}80.80%{opacity:1}80.90%,100%{opacity:0;transform:translate(0,0px)}}
     .bv9{animation:bvk9 19.9s linear infinite}
-    @keyframes bvk9{0%{transform:translate(0,0);opacity:1}76.88%{transform:translate(2px,0px)}77.64%{transform:translate(-2px,0px)}78.29%{opacity:1}78.39%,100%{opacity:0;transform:translate(0,0px)}}
+    @keyframes bvk9{0%{transform:translate(0,0);opacity:1}76.78%{transform:translate(0,0px)}76.88%{transform:translate(2px,0px)}77.64%{transform:translate(-2px,0px)}78.29%{opacity:1}78.39%,100%{opacity:0;transform:translate(0,0px)}}
     .bv10{animation:bvk10 19.9s linear infinite}
-    @keyframes bvk10{0%{transform:translate(0,0);opacity:1}55.50%{transform:translate(2px,0px)}56.25%{transform:translate(-2px,0px)}56.91%{opacity:1}57.01%,100%{opacity:0;transform:translate(0,0px)}}
+    @keyframes bvk10{0%{transform:translate(0,0);opacity:1}55.40%{transform:translate(0,0px)}55.50%{transform:translate(2px,0px)}56.25%{transform:translate(-2px,0px)}56.91%{opacity:1}57.01%,100%{opacity:0;transform:translate(0,0px)}}
     .bv11{animation:bvk11 19.9s linear infinite}
-    @keyframes bvk11{0%{transform:translate(0,0);opacity:1}52.99%{transform:translate(2px,0px)}53.74%{transform:translate(-2px,0px)}54.39%{opacity:1}54.49%,100%{opacity:0;transform:translate(0,0px)}}
+    @keyframes bvk11{0%{transform:translate(0,0);opacity:1}52.89%{transform:translate(0,0px)}52.99%{transform:translate(2px,0px)}53.74%{transform:translate(-2px,0px)}54.39%{opacity:1}54.49%,100%{opacity:0;transform:translate(0,0px)}}
     .bv12{animation:bvk12 19.9s linear infinite}
     @keyframes bvk12{0%{transform:translate(0,0);opacity:1}58.54%{opacity:1}58.64%,100%{opacity:0;transform:translate(0,0px)}}
     .bv13{animation:bvk13 19.9s linear infinite}
